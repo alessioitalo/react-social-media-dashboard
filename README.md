@@ -29,9 +29,6 @@ Users should be able to:
 
 [![Screenshot-React-Social-Media-Dashboard.png](https://i.postimg.cc/hG1GHT84/Screenshot-React-Social-Media-Dashboard.png)](https://postimg.cc/nsMZmswN)
 
-
-![1](https://user-images.githubusercontent.com/74539736/107414206-9abeb800-6b09-11eb-85d8-ef5584760782.PNG)
-
 ### Links
 
 - Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/reactsocialmediadashboard-W1hNQLReH)

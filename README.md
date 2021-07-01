@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./Screenshot React Social Media Dashboard.png)
+[Screenshot-React-Social-Media-Dashboard.png](https://postimg.cc/nsMZmswN)
 
 
 ### Links

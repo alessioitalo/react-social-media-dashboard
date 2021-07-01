@@ -25,6 +25,10 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 - Toggle color theme to their preference
 
+### Screenshot
+
+![](./Screenshot React Social Media Dashboard.png)
+
 ### Links
 
 - Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/reactsocialmediadashboard-W1hNQLReH)

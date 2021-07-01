@@ -1,0 +1,45 @@
+.dark{
+    color: white
+}
+
+.light{
+    color: hsl(230, 17%, 14%)
+}
+
+header{
+    padding-bottom: 2rem;
+}
+
+header p{
+    color: hsla(228, 34%, 66%, 0.8);
+}
+
+header div{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between
+}
+
+header h1{
+    line-height: 0.1rem;
+}
+
+.header p{
+    font-size: 0.7rem;
+    font-weight: 700;
+    display: inline-block;
+}
+
+@media screen and (max-width: 599px) {
+    header h1{
+        line-height: normal;
+        font-size: 1.5rem;
+        margin-bottom: 0;
+    }
+
+    header{
+        padding: 0;
+    }
+    
+}

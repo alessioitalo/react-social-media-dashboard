@@ -1,0 +1,66 @@
+.small-box {
+  cursor: pointer;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  }
+
+.dark{
+  background-color: hsl(228, 28%, 20%);
+  color: white;
+}
+
+.light{
+  background-color:  hsl(227, 47%, 96%);
+  color: hsl(228, 28%, 20%); 
+}
+
+.light:hover{
+  background-color: hsl(229, 17%, 86%)
+}
+
+
+.interactions{
+  position: relative;
+  top: 1rem;
+  left: 1rem;
+  font-size: 0.7rem;
+  color: hsla(228, 34%, 66%, 0.8);
+  font-weight: 700;
+}
+
+.small-box img{
+  position: relative;
+  top: 1rem;
+  right: 1rem;
+  justify-self: end;
+}
+.number{
+  font-weight: 700;
+  font-size: 2rem;
+  align-self: end;
+  position: relative;
+  left: 1rem;
+  bottom: 0.5rem;
+  padding-top: 1rem;
+}
+
+.percentage{
+  align-self: end;
+  justify-self: end;
+  color: hsl(163, 72%, 41%);
+  position: relative;
+  right: 1rem;
+  bottom: 1rem;
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+.negative{
+  color: hsl(356, 69%, 56%);
+}
+
+.arrow{
+  padding-bottom: 0.5rem;
+  display: block;
+}

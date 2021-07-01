@@ -1,38 +1,48 @@
-.App {
-  text-align: center;
-}
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+body {
+  background-image: linear-gradient(hsl(232, 19%, 15%) 35%, hsl(230, 17%, 14%) 35%);
+  font-family: "Inter", sans-serif;
+  min-width: 50rem;
+  padding: 1rem 10rem;
   color: white;
+
 }
 
-.App-link {
-  color: #61dafb;
+.dark{
+background-color:hsl(230, 17%, 14%);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.card-dark{
+background-color:hsl(228, 28%, 20%)
+}
+
+.dark-main-text{
+color: white
+}
+
+.dark-sec-text{
+color: hsl(228, 34%, 66%)
+}
+
+.light{
+background-color: hsl(0, 0%, 100%)}
+
+.card-light{
+background-color: hsl(227, 47%, 96%);
+}
+
+.light-main-text{
+color: hsl(230, 17%, 14%);
+}
+
+.light-sec-text{
+color: hsl(228, 12%, 44%);
+}
+
+@media screen and (max-width: 599px) {
+  body{
+    padding: 0;
+    min-width: 18rem;
   }
 }
